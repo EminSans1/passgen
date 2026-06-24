@@ -91,3 +91,7 @@ def main():
         if entropy < 50:
             print("⚠️  WARNING: Entropy below 50 bits — weak password!")
         print()
+
+
+if __name__ == "__main__":
+    main()
